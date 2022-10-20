@@ -1,0 +1,61 @@
+@import './mixins.scss'; //import for using the border-radius in _mixins.scss
+@import './variables.scss'; //import for using $spacing in _variables.scss
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    min-height: calc(100vh - 75px);
+    // @include border-radius(0.5rem); /* using the mixins function */
+    
+    img {
+        width: 300px;
+        background-size: cover;
+        background-position: center center;
+    }
+    .card_content {
+        padding: $spacing;
+    }
+    .card_title {
+        margin: 0;
+        color: black;
+    }
+    .card_description {
+        margin: 0;
+        color: $dark-grey;
+    }
+    &_dark {
+        background-color: black;
+        .card_title {
+            color: white;
+        }
+    }
+    
+}
+
+.four_part{
+    margin: 120px 80px;
+    
+}
+.left{
+
+}
+.bottom{
+    margin-top: -200px;
+}
+// .part_1{
+//     background-color: chocolate;
+//     margin-top: -200px;
+// }
+// .part_2{
+//     background-color: chocolate;
+//     margin-bottom: -200px;
+// }
+// .part_3{
+//     background-color: chocolate;
+//     margin-top: -200px;
+// }
+// .part_4{
+//     background-color: chocolate;
+//     margin-bottom: -200px;
+// }
