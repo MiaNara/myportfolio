@@ -10,3 +10,15 @@
     -moz-border-radius: $radius;
     border-radius: $radius;
 }
+@mixin rainbow-text{
+    background-image: linear-gradient(to left, #15DB95, rgb(166,104,255));
+        // background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+}
+@mixin background-linear($color1, $color2){
+    background: $color1;
+    background: -webkit-linear-gradient(to right, $color1, $color2); 
+    background: linear-gradient(to right, $color1, $color2);
+}
