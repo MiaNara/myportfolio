@@ -14,7 +14,7 @@ export default function Skills() {
   return (
     <div>
       <Container sx={{ 'marginTop': '10px', alignItems: "center", justifyContent: 'center' }}>
-        <Animated animationIn="zoomInRight" animationOut="shake" animationInDuration={900} animationOutDuration={1000} isVisible={true} animateOnMount>
+        <Animated animationIn="zoomInRight" animationOut="shake" animationInDuration={1500} animationOutDuration={1000} isVisible={true} animateOnMount>
           <Direction />
           <Grid container sx={{ alignItems: "center", justifyContent: 'center' }}>
             {projects.map((project) => (
