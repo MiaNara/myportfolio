@@ -23,7 +23,7 @@ export default function Card() {
                                     <br />
                                     so I am on my way.
                                     <br />
-                                    Let's visit some of what I have learn!
+                                    Let's visit some of what I have learned!
                                 </span>
                             </div>
                             <Direction/>
