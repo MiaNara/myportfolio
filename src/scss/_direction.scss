@@ -1,9 +1,11 @@
 .redirect {
     margin-top: 50px;
     margin-bottom: 50px;
+   
     a {
       text-decoration: none;
       color: white;
+    
     }
     .bt1 {
       @include background-linear(#fe9158, #f641a7);
@@ -17,5 +19,6 @@
     span {
       margin-right: 20px;
       padding: 10px 30px;
+      border-radius: 20px;
     }
 }

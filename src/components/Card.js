@@ -15,7 +15,7 @@ export default function Card() {
                         <Animated animationIn="wobble" animationOut="shake" animationInDuration={900} animationOutDuration={1000} isVisible={true} animateOnMount>
                             <div className="intro">
                                 <span >
-                                    <span >Hi, I am Trang 🤚</span>
+                                    <span >Hi, I am Trang!</span>
                                     <br />
                                     I'm currently a third year student at FPT University in Vietnam.
                                     <br />
